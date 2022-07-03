@@ -76,30 +76,8 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
   {% btn 'https://blog.csdn.net/LanXiu_/article/details/122325029?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-122325029-blog-116039735.pc_relevant_aa2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-122325029-blog-116039735.pc_relevant_aa2&utm_relevant_index=5',[Github push时报错 OpenSSL_read:Connection was aborted,error 10053__LanXiu的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}
 
-- `git pull`无效
 
-  {% btn 'https://blog.csdn.net/lan123456_/article/details/108976999',[拉取远程仓库代码时出现错误：Please commit your changes or stash them before you merge. Aborting_来杯卡布奇洛的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}
 
-  - [ ] 方式一：上传
-
-  
-  - [x] 缓存本地变更，然后`git pull`
-  
-    ~~~bash
-    git stash && git pull
-    ~~~
-  
-    查看缓存列表
-  
-    ~~~bash
-    git stash list
-    ~~~
-  
-    应用第一个缓存
-  
-    ~~~bash
-    git add . && git stash pop
-    ~~~
   
     
   
