@@ -181,10 +181,10 @@ reward:
 
 # 在线编辑
 post_edit:
-  enable: false
+  enable: true
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   # 需要将本地仓库上传到Github仓库
-  url:
+  url: https://github.com/wangmin-1995/wangmin-1995.github.io/edit/hexo/source/
 
 # 相似文章
 related_post:
