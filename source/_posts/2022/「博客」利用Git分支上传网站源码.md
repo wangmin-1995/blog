@@ -8,6 +8,12 @@ categories: 博客
 cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png 
 ---
 
+
+
+---
+
+# <center>上传源码
+
 {% btn 'http://fangzh.top/2018/2018090715/',「[hexo教程:基本配置+更换主题+多终端工作+coding page部署分流(2) | Fangzh的个人博客 | 人工智能拯救世界]」,far fa-hand-point-right,block outline right blue larger %}
 
 1. 在***「GitHub」***新建分支***「Hexo」***，并设置为默认分支
@@ -32,4 +38,8 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
    git add . && git commit -m 'add branch' && git push
    ~~~
 
-   
+
+---
+
+# <center>日常使用
+
