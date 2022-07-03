@@ -14,7 +14,9 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 # <center>上传源码
 
-{% btn 'http://fangzh.top/2018/2018090715/',「[hexo教程:基本配置+更换主题+多终端工作+coding page部署分流(2) | Fangzh的个人博客 | 人工智能拯救世界]」,far fa-hand-point-right,block outline right blue larger %}
+- 参考文章
+
+  {% btn 'http://fangzh.top/2018/2018090715/',「[hexo教程:基本配置+更换主题+多终端工作+coding page部署分流(2) | Fangzh的个人博客 | 人工智能拯救世界]」,far fa-hand-point-right,block outline right blue larger %}
 
 1. 在***「GitHub」***新建分支***「Hexo」***，并设置为默认分支
 
@@ -64,32 +66,6 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
   git pull
   ~~~
   
-
-## <center>本地和远程同时有变更
-
-### 「方法一：暂存本地变更」
-
-- [ ] 略显麻烦，不采用
-
-  {% btn 'https://blog.csdn.net/lan123456_/article/details/108976999',[拉取远程仓库代码时出现错误：Please commit your changes or stash them before you merge. Aborting_来杯卡布奇洛的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}
-
-### 「方法二：上传本地变更与远程变更合并」
-
-1. 
-
-- [x] `git pull`后提交注释文本，`:wq`后退出文本编辑
-
-### 「方法三：上传本地变更与远程变更合并」
-
-### 「方法四：用远程仓库覆盖本地仓库」
-
-- [ ] 本地变更会丢失
-
-  ~~~bash
-  git reset --hard && git pull
-  ~~~
-
----
 
 # <center>疑难杂症
 
