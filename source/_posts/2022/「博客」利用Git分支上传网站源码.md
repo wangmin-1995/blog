@@ -45,13 +45,15 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 ## <center>仅本地变更后上传
 
--  同时上传源码和布署网页
+1.  本地若无变更，无法上传，也没必要上传
+
+2.  本地有变更，远程无变更时，同时上传源码和布署网页
 
    ~~~bash
    git add . && git commit -m "new" && git push && hexo clean&&hexo g&&hexo d
    ~~~
-   
-   本地若无变更，无法上传，也没必要上传
+
+3.  本地有变更，上传的时候报错，远程也有变更，此时按照错误提示`git pull`后提交注释文本，`:wq`退出文本编辑，结果是远程变更下载至本地
 
 
 ## <center>仅远程变更后下载
@@ -69,13 +71,15 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 - [ ] 略显麻烦，不采用
 
-{% btn 'https://blog.csdn.net/lan123456_/article/details/108976999',[拉取远程仓库代码时出现错误：Please commit your changes or stash them before you merge. Aborting_来杯卡布奇洛的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}
+  {% btn 'https://blog.csdn.net/lan123456_/article/details/108976999',[拉取远程仓库代码时出现错误：Please commit your changes or stash them before you merge. Aborting_来杯卡布奇洛的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}
 
-### 「方法二：读取远程变更合并至本地」
+### 「方法二：上传本地变更与远程变更合并」
+
+1. 
 
 - [x] `git pull`后提交注释文本，`:wq`后退出文本编辑
 
-### 「方法三：上传本地变量与远程变更合并」
+### 「方法三：上传本地变更与远程变更合并」
 
 ### 「方法四：用远程仓库覆盖本地仓库」
 
@@ -104,4 +108,3 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 ---
 
-111
