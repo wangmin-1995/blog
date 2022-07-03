@@ -27,7 +27,7 @@ cover: https://s2.loli.net/2022/07/03/RvuTwoDSiQsLeld.jpg
 - 提交更改到服务器
 
   ~~~bash
-  git cpmmit -m "注释"
+  git commit -m "注释"
   ~~~
 
 - 切换到另一个分支
