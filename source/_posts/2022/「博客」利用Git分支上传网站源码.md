@@ -63,25 +63,8 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
   git 
   ~~~
 
-  
 
-
-
-
-
-
-
-2.  
-
-## <center>仅本地变更后上传
-
-1. 本地有变更，远程无变更时，同时上传源码和布署网页
-
-   ~~~bash
-   git add . && git commit -m "new" && git push && hexo clean&&hexo g&&hexo d
-   ~~~
-
-2. 本地有变更，上传的时候报错，说明远程也有变更，此时按照提示`git pull`后提交注释文本，`:wq`退出文本编辑，结果是远程变更下载至本地
+1. 本地有变更，上传的时候报错，说明远程也有变更，此时按照提示`git pull`后提交注释文本，`:wq`退出文本编辑，结果是远程变更下载至本地
 
 ## 
 
