@@ -55,7 +55,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
    git add . && git commit -m "new" && git push && hexo clean&&hexo g&&hexo d
    ~~~
 
-3.  本地有变更，上传的时候报错，远程也有变更，此时按照错误提示`git pull`后提交注释文本，`:wq`退出文本编辑，结果是远程变更下载至本地
+3.  本地有变更，上传的时候报错，说明远程也有变更，此时按照提示`git pull`后提交注释文本，`:wq`退出文本编辑，结果是远程变更下载至本地
 
 
 ## <center>仅远程变更后下载
@@ -80,7 +80,3 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
   也可尝试切换代理
 
   {% btn 'https://blog.csdn.net/LanXiu_/article/details/122325029?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-122325029-blog-116039735.pc_relevant_aa2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-122325029-blog-116039735.pc_relevant_aa2&utm_relevant_index=5',[Github push时报错 OpenSSL_read:Connection was aborted,error 10053__LanXiu的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}
-
-
----
-
