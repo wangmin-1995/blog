@@ -59,7 +59,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 - 只需
 
   ~~~bash
-  git pull
+  git add . && git commit -m "new" && git pull
   ~~~
   
 
@@ -67,12 +67,13 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 ### 「方法一：暂存本地变更」
 
-1. 缓存本地变更
+- [ ] 略显麻烦，不采用
 
-   ~~~bash
-   ~~~
+{% btn 'https://blog.csdn.net/lan123456_/article/details/108976999',[拉取远程仓库代码时出现错误：Please commit your changes or stash them before you merge. Aborting_来杯卡布奇洛的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}
 
-   
+### 「方法二：读取远程变更合并至本地」
+
+- [x] `git pull`后提交注释文本，`:wq`后退出文本编辑
 
 # <center>疑难杂症
 
@@ -90,7 +91,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 - `git pull`无效
 
-  {% btn 'https://blog.csdn.net/lan123456_/article/details/108976999',[拉取远程仓库代码时出现错误：Please commit your changes or stash them before you merge. Aborting_来杯卡布奇洛的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}
+  
 
   - [ ] 方式一：上传
 
