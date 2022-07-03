@@ -50,6 +50,8 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
    ~~~bash
    git add . && git commit -m "new" && git push && hexo clean&&hexo g&&hexo d
    ~~~
+   
+   本地若无变更，无法上传，也没必要上传
 
 
 ## <center>远程变更后下载
