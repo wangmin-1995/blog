@@ -59,7 +59,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 - 只需
 
   ~~~bash
-  git add . && git commit -m "new" && git pull
+  git pull
   ~~~
   
 
@@ -75,6 +75,16 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 - [x] `git pull`后提交注释文本，`:wq`后退出文本编辑
 
+### 「方法三：用远程仓库覆盖本地仓库」
+
+- [ ] 本地变更会丢失
+
+  ~~~bash
+  git reset --hard && git pull
+  ~~~
+
+---
+
 # <center>疑难杂症
 
 - `git push`报错：连接中止，error10053
@@ -89,33 +99,6 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
   {% btn 'https://blog.csdn.net/LanXiu_/article/details/122325029?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-122325029-blog-116039735.pc_relevant_aa2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-122325029-blog-116039735.pc_relevant_aa2&utm_relevant_index=5',[Github push时报错 OpenSSL_read:Connection was aborted,error 10053__LanXiu的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}
 
-- `git pull`无效
-
-  
-
-  - [ ] 方式一：上传
-
-  
-  - [x] 缓存本地变更，然后`git pull`
-  
-    ~~~bash
-    git stash && git pull
-    ~~~
-  
-    查看缓存列表
-  
-    ~~~bash
-    git stash list
-    ~~~
-  
-    应用第一个缓存
-  
-    ~~~bash
-    git add . && git stash pop
-    ~~~
-  
-    
-  
   - [ ] 放弃本地变更，用远程仓库覆盖，然后`git pull`
   
     ~~~bash
