@@ -3,7 +3,7 @@ title: 「博客」详解Butterfly主题配置文件_config.butterfly.yml
 date: 2022-07-02 21:42:46
 tags:
 - Butterfly
-- 配置文件
+- Blog
 categories: 博客
 cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
 ---

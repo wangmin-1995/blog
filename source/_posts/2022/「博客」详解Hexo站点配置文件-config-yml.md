@@ -3,7 +3,7 @@ title: 「博客」详解Hexo站点配置文件_config.yml
 date: 2022-07-02 21:42:11
 tags:
 - Hexo
-- 配置文件
+- Blog
 categories: 博客
 cover: https://s2.loli.net/2022/06/29/2AYcu9vPOhmZqx6.png
 ---

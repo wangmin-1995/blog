@@ -1,11 +1,6 @@
 ---
-title: 「软件」Git Bash的常用命令
-date: 2022-07-03 14:59:06
+title: 「软件」Git版本控制&博客源码管理
 tags:
-- Git
-- 命令
-categories: 软件
-cover: https://s2.loli.net/2022/07/03/RvuTwoDSiQsLeld.jpg 
 ---
 
 ---

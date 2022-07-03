@@ -4,15 +4,12 @@ date: 2022-07-03 12:23:28
 tags:
 - Hexo
 - Git
+- Blog
 categories: 博客
 cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png 
 ---
 
-
-
 ---
-
-# <center>上传源码
 
 - 参考文章
 
@@ -40,51 +37,4 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
    git add . && git commit -m 'add branch' && git push
    ~~~
 
-
 ---
-
-# <center>使用场景
-
-- 本地仓库无变更时，获取远程仓库变更
-
-  ~~~bash
-  git pull
-  ~~~
-
-- 远程仓库无变更时，上传本地仓库变更，并布署网页
-
-  ~~~bash
-  git commit -am 'new' && git push && hexo clean && hexo g && hexo d
-  ~~~
-
-- 本地和远程均变更，合并和上传两仓库
-
-  ~~~bash
-  git 
-  ~~~
-
-
-1. 本地有变更，上传的时候报错，说明远程也有变更，此时按照提示`git pull`后提交注释文本，`:wq`退出文本编辑，结果是远程变更下载至本地
-
-## 
-
-# <center>疑难杂症
-
-- `git push`报错：连接中止，***「error10053」***
-
-  取消代理解决
-
-  ~~~bash
-  git config --global --unset http.proxy && git config --global --unset https.proxy
-  ~~~
-
-  也可尝试切换代理
-  123
-
-  {% btn 'https://blog.csdn.net/LanXiu_/article/details/122325029?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-122325029-blog-116039735.pc_relevant_aa2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-122325029-blog-116039735.pc_relevant_aa2&utm_relevant_index=5',[Github push时报错 OpenSSL_read:Connection was aborted,error 10053__LanXiu的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}
-
-~~~
-git config --global -e
-git config --global -l
-~~~
-
