@@ -87,7 +87,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 # <center>疑难杂症
 
-- `git push`报错：连接中止，error10053
+- `git push`报错：连接中止，***「error10053」***
 
   取消代理解决
 
