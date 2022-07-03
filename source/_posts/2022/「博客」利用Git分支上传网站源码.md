@@ -45,4 +45,22 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 ## <center>本地变更后上传
 
-1. 奔村
+1. 1
+
+   ~~~bash
+   git config --global --unset https.proxy && git add . && git commit -m "new" && git push && hexo clean&&hexo g&&hexo d
+   ~~~
+
+   
+
+# <center>疑难杂症
+
+- `git push`报错：连接中止，error10053
+
+  取消代理解决
+
+  ~~~bash
+  git config --global --unset http.proxy && git config --global --unset https.proxy
+  ~~~
+
+  {% btn 'https://blog.csdn.net/LanXiu_/article/details/122325029?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-122325029-blog-116039735.pc_relevant_aa2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-122325029-blog-116039735.pc_relevant_aa2&utm_relevant_index=5',[Github push时报错 OpenSSL_read:Connection was aborted,error 10053__LanXiu的博客-CSDN博客],far fa-hand-point-right,block outline right blue larger %}

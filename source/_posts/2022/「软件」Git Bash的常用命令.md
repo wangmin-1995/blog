@@ -48,4 +48,20 @@ cover: https://s2.loli.net/2022/07/03/RvuTwoDSiQsLeld.jpg
   git pull
   ~~~
 
+- 将本地最新的更改上传到服务器
+
+  ~~~bash
+  git push
+  ~~~
+
+- 解决无法连接的问题，取消代理
+
+  ~~~bash
+  git config --global --unset http.proxy && git config --global --unset https.proxy
+  ~~~
+
+  
+
+  
+
 ---
