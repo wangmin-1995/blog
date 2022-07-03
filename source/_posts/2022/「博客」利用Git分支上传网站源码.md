@@ -45,6 +45,16 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 # <center>使用场景
 
+- 场景一：远程仓库与本地仓库均无变更
+
+  ***「commit」***后
+
+
+
+
+
+
+
 ## <center>本地无变更
 
 1.  本地和远程都无变更，无法
@@ -61,14 +71,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 2. 本地有变更，上传的时候报错，说明远程也有变更，此时按照提示`git pull`后提交注释文本，`:wq`退出文本编辑，结果是远程变更下载至本地
 
 
-## <center>仅远程变更后下载
-
-- 只需
-
-  ~~~bash
-  git pull
-  ~~~
-  
+## 
 
 # <center>疑难杂症
 
