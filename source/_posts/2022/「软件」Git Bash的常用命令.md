@@ -60,13 +60,5 @@ cover: https://s2.loli.net/2022/07/03/RvuTwoDSiQsLeld.jpg
   git config --global --unset http.proxy && git config --global --unset https.proxy
   ~~~
 
-  
-  
-  test
-
-test2
-
-test3
-
 
 ---
