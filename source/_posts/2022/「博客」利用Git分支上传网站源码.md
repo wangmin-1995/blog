@@ -45,7 +45,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 # <center>使用场景
 
-## <center>仅本地变更后上传
+## <center>本地变更后上传
 
 1.  本地若无变更，无法上传，也没必要上传
 
@@ -55,7 +55,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
    git add . && git commit -m "new" && git push && hexo clean&&hexo g&&hexo d
    ~~~
 
-3.  本地有变更，上传的时候报错，说明远程也有变更，此时按照提示`git pull`后提交注释文本，`:wq`退出文本编辑，结果是远程变更下载至本地
+3.  本地有变更，上传的时候报错，说明远程也有变更，此时按照提示`git pull`后提交注释文本，`:wq`退出文本编辑，结果是远程变更下载至本地，需要适当修改后重新上传
 
 
 ## <center>仅远程变更后下载
