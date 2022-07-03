@@ -51,7 +51,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
   git pull
   ~~~
 
-- 远程仓库无变更时，上传本地仓库变更，同时布署网页
+- 远程仓库无变更时，上传本地仓库变更，并布署网页
 
   ~~~bash
   git commit -am 'new' && git push && hexo clean && hexo g && hexo d
@@ -71,10 +71,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 
 
-## <center>本地无变更
-
-1.  本地和远程都无变更，无法上传
-2.  本地无变更，远程有变更时，无法上传，需要本地变更后
+2.  
 
 ## <center>仅本地变更后上传
 
