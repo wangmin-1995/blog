@@ -45,16 +45,22 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 # <center>使用场景
 
-- 场景一：本地仓库无变更,远程仓库有变更
+- 本地仓库无变更时，获取远程仓库变更
 
   ~~~bash
   git pull
   ~~~
 
-- 场景二：本地仓库有变更,远程仓库无变更
+- 远程仓库无变更时，上传本地仓库变更，同时布署网页
 
   ~~~bash
-  git commit -am 'new'
+  git commit -am 'new' && git push && hexo clean && hexo g && hexo d
+  ~~~
+
+- 本地和远程均变更，合并和上传两仓库
+
+  ~~~bash
+  git 
   ~~~
 
   
