@@ -43,7 +43,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
 
 # <center>日常使用
 
-## <center>本地变更后上传
+## <center>仅本地变更后上传
 
 -  同时上传源码和布署网页
 
@@ -54,7 +54,7 @@ cover: https://s2.loli.net/2022/07/03/vqcayoE9uZbGreQ.png
    本地若无变更，无法上传，也没必要上传
 
 
-## <center>远程变更后下载
+## <center>仅远程变更后下载
 
 - 1
 
