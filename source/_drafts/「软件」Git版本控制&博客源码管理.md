@@ -147,7 +147,7 @@ tags:
      git checkout wang && git add . && git commit -m "wang"
      ~~~
   
-  2. 分别切换到两个分支，对相同文件的内容进行不同更改
+  2. 分别切换到两个分支，对相同文件的内容进行不同更改1111111111111
   
      当前***「wang」***分支，修改***「test.txt」***内容
   
@@ -169,7 +169,7 @@ tags:
      git merge wang && git add . && git commit -m "wang+min"
      ~~~
   
-     
+     4. wang
 
 
 ---
