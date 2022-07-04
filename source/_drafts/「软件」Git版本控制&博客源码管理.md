@@ -163,7 +163,7 @@ tags:
      789
      ~~~
   
-  3. 合并***「wang」***分支和***「min」***分支，当前是***「min」***分支
+  3. 合并***「wang」***分支和***「min」***分支，当前是***「min」***分支，遥要霸圾葡萄干
   
      ~~~bash
      git merge wang && git add . && git commit -m "wang+min"
