@@ -422,10 +422,16 @@ categories: 博客
 - [ ] ***「Include / Exclude / Ignore file」***
 
   ~~~yaml
-  include:  # 仅适用于source文件夹
+  include:
   exclude:
   ignore:
   ~~~
+  
+  | 参数      | 描述                                                         |
+  | :-------- | :----------------------------------------------------------- |
+  | `include` | Hexo 默认会不包括 `source/` 下的文件和文件夹（包括名称以下划线和 ***「.」*** 开头的文件和文件夹，Hexo 的 ***「_posts」***和 ***「_data」*** 等目录除外）。通过设置此字段将使 Hexo 处理他们并将它们复制到 ***「source」*** 目录下。 |
+  | `exclude` | Hexo 不包括 `source/` 下的这些文件和目录                     |
+  | `ignore`  | Hexo 会忽略整个 Hexo 项目下的这些文件夹或文件                |
 
 ## <center>主题选用
 
