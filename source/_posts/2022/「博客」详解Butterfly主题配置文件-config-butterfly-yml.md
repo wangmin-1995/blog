@@ -1,20 +1,17 @@
 ---
 title: 「博客」详解Butterfly主题配置文件_config.butterfly.yml
-date: 2022-07-02 21:42:46
+date: 2022-07-05 19:47:51
 tags:
 - Butterfly
-- Blog
+- _config.butterfly.yml
 categories: 博客
-cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
+cover: https://s2.loli.net/2022/07/05/bHC3tahnQYuGXBT.png
 ---
 
 
-{% note blue 'fas fa-bullhorn' simple %}打勾的为必备选项，没打勾的为可选选项{%endnote%}
 
-{% note blue 'fas fa-bullhorn' simple %}本篇对Butterfly主题配置文件***「_config.butterfly.yml」***详细解析{%endnote%}
 
 ---
-
 
 # <center>默认配置
 
@@ -937,6 +934,8 @@ cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
       # prismjs_autoloader:
   ~~~
 
+---
+
 # <center>完整配置
 
 - 自定义配置如下
@@ -1776,6 +1775,8 @@ cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
       # prismjs_autoloader:
   ~~~
 
+---
+
 # <center>详细解析
 
 ## <center>导航目录
@@ -2007,11 +2008,11 @@ cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
   ~~~
 
   需要安装插件
-  
+
   ~~~bash
   npm install hexo-generator-search --save
   ~~~
-  
+
   
 
 ### 「Algolia 搜索」
@@ -2118,7 +2119,7 @@ cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
   ~~~
 
     需要安装插件
-  
+
   ~~~bash
   npm i --save hexo-wordcount
   ~~~
@@ -2196,7 +2197,6 @@ cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
     # 需要将本地仓库上传到Github仓库
     url:
   ~~~
-  
 
 ### 「相似文章」
 
@@ -2279,8 +2279,6 @@ cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
 - [ ] ***「Chat Services」***
 
   ***「待完善……」***
-
-  
 
 ## <center>页脚
 
@@ -2460,7 +2458,6 @@ cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
     code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
   ~~~
 
-  
 
 ### 「网站标题字体」
 
@@ -2713,6 +2710,7 @@ cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
     blur: false
   ~~~
 
+---
 
 # <center>疑难杂症
 
@@ -2726,5 +2724,6 @@ cover: https://s2.loli.net/2022/06/29/cUXnq1JoafuNeOT.png
   npm i --save hexo-wordcount
   ~~~
 
-  
+
+---
 

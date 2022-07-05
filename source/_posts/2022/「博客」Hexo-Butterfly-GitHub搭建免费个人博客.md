@@ -1,22 +1,19 @@
 ---
 title: 「博客」Hexo+Butterfly+GitHub搭建免费个人博客
+date: 2022-07-05 19:32:48
 tags:
-  - Hexo
-  - Butterfly
-  - GitHub
+- Hexo
+- Butterfly
+- GitHub
+cover: https://s2.loli.net/2022/07/05/SHEToUpA5NXZ3uR.png
 categories: 博客
-cover: https://s2.loli.net/2022/06/29/UMyD2JpTAvOgZbF.png
-date: 2022-07-02 21:35:09
 ---
 
 
-{% note blue 'fas fa-bullhorn' simple %}打勾的为必备选项，没打勾的为可选选项{%endnote%}
-
-{% note blue 'fas fa-bullhorn' simple %}建议全程挂代理{%endnote%}
 
 ---
 
-# <center>软件
+# <center>安装软件
 
 - [x] ***「Node」***，主要用到***「Node.Js」***的包管理器***「Npm」***
 
@@ -30,7 +27,7 @@ date: 2022-07-02 21:35:09
 
 ---
 
-# <center>仓库
+# <center>建立仓库
 
 ## <center>创建本地仓库
 
@@ -90,7 +87,7 @@ date: 2022-07-02 21:35:09
      npm i hexo-theme-butterfly
      ~~~
 
-2. 找到`博客\themes\butterfly`下的***「_config.yml」***,复制并重命名为***「_config.butterfly.yml」***，粘贴到***「博客」***下
+2. 找到`博客\themes\butterfly`下的***「_config.yml」***，复制并重命名为***「_config.butterfly.yml」***，粘贴到***「博客」***下
 
 3. ***「_config.yml」***修改，启用主题
 
@@ -104,7 +101,7 @@ date: 2022-07-02 21:35:09
 
    - 删除***「node_modules」***下的***「hexo-theme-landscape」***文件夹
 
-5. ***「Butterfly」***必须安装插件***「Pug渲染器」***
+5. ***「Butterfly」***必须安装***「Pug渲染器」***插件
 
    ~~~bash
    npm install hexo-renderer-pug --save
@@ -124,7 +121,7 @@ date: 2022-07-02 21:35:09
 
 ---
 
-# <center>绑定
+# <center>绑定仓库
 
 1. 回到***「Git Bash」***，设置***「用户名」***和***「邮箱」***
 
@@ -144,7 +141,7 @@ date: 2022-07-02 21:35:09
 
    连按三个***「回车」***，设置为空密码
 
-3. 进入`C:\Users\用户名\.ssh`目录，***「.ssh」***文件夹默认隐藏，打开它，找到***「 id_rsa.pub」***,复制里面的内容
+3. 进入`C:\Users\用户名\.ssh`目录，***「.ssh」***文件夹默认隐藏，打开它，找到***「 id_rsa.pub」***，复制里面的内容
 
 4. 登录***「GitHub」***➪***「Setting」***➪***「SSH and GPG keys」***➪点击***「New SSH key」***➪填入复制的内容并保存
 
@@ -177,7 +174,7 @@ date: 2022-07-02 21:35:09
 
 ---
 
-# <center>域名
+# <center>绑定域名
 
 - [ ] ***「GitHub」***提供的免费域名***「用户名.github.io」***
 
@@ -185,4 +182,6 @@ date: 2022-07-02 21:35:09
 
   将买到的域名如***「Minge.live」***填入一个文本文件，删除文件后缀，并重命名为**「CNAME」**放到`博客/source`下，布署完成后，打开***「用户名.github.io」***会自动跳转到***「minge.live」***，当然也可以直接打开***「https://minge.live」***
 
-{% btn 'https://cloud.tencent.com/',[腾讯云 - 产业智变 云启未来 (tencent.com)],far fa-hand-point-right,block outline right blue larger %}
+  {% btn 'https://cloud.tencent.com/',[腾讯云 - 产业智变 云启未来 (tencent.com)],far fa-hand-point-right,block outline right blue larger %}
+
+---

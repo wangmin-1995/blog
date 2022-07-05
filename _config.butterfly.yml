@@ -69,7 +69,7 @@ favicon: /img/favicon.png
 
 # 头像
 avatar:
-  img: https://s2.loli.net/2022/06/26/GB9iaNPwlk4U1ho.jpg
+  img: /img/favicon.png
   effect: false	# true：头像会一直转
 
 # Disable all banner image
@@ -79,7 +79,7 @@ disable_top_img: false
 index_img:
 
 # 默认的top_img，当页面的top_img没有配置时，会显示default_top_img
-default_top_img: https://s2.loli.net/2022/05/06/MF6cDtkeNGTZbE1.jpg
+default_top_img: /img/top_img.jpg
 
 # The banner image of archive page
 archive_img:
@@ -108,7 +108,7 @@ cover:
   archives_enable: true
   position: both  # 封面显示的位置：left/right/both
   default_cover:	# 没有设置Front_matter时，默认显示的封面，可设置多个
-    - https://s2.loli.net/2022/05/06/MF6cDtkeNGTZbE1.jpg
+    - https://s2.loli.net/2022/07/05/ZuVvlWAMGqPHpgE.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
