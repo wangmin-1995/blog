@@ -57,7 +57,7 @@ cover: https://s2.loli.net/2022/07/06/3pzqfb2NIOACJX6.jpg
    ~~~bash
    git pull
    ~~~
-
    
+4. 如果不小心在远程源码有更改时，在本地仓库***「commit」***
 
 ---
