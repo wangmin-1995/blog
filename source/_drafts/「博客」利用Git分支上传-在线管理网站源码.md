@@ -41,6 +41,9 @@ cover: https://s2.loli.net/2022/07/06/3pzqfb2NIOACJX6.jpg
 7. 每次在本地编辑文章后，要上传到远程仓库
    目的一：备份源码
    目的二：更新网站
+   ~~~bash
+   git add . && git commit -m 'new' && git push && hexo clean && hexo g && hexo d
+   ~~~
 
 ---
 
