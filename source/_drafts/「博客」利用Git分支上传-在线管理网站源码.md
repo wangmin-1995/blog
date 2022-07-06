@@ -65,8 +65,15 @@ cover: https://s2.loli.net/2022/07/06/3pzqfb2NIOACJX6.jpg
    git pull
    ~~~
 
-# <center>解决冲突
+# <center>疑难杂症
 
-- 在远程源码和本地源码都有更改时进行部分操作会出现冲突
+- 网络原因导致的失败
 
+  ~~~
+  fatal: unable to access 'https://github.com/wangmin-1995/wangmin-1995.github.io.git/': OpenSSL SSL_read: Connection was aborted, errno 10053
+  ~~~
+
+  
+
+  
 
