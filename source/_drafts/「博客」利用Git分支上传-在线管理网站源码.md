@@ -81,8 +81,16 @@ cover: https://s2.loli.net/2022/07/06/3pzqfb2NIOACJX6.jpg
   请在合并之前提交更改或将其隐藏。
   ~~~
 
-- [ ] 方法一：在合并前提交本地更改
+  - [ ] 方法一：在合并前提交本地更改
 
-- [ ] 方法二：在合并前隐藏本地更改
+    ~~~bash
+    git add . && git commit -m "提交更改" && git pull
+    ~~~
+
+  - [ ] 方法二：在合并前隐藏本地更改
+
+    ~~~bash
+    git satsh
+    ~~~
 
 ---
