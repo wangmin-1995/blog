@@ -92,5 +92,7 @@ cover: https://s2.loli.net/2022/07/06/3pzqfb2NIOACJX6.jpg
     ~~~bash
     git satsh
     ~~~
+     
+  - `:wq`退出编辑
 
 ---
