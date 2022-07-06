@@ -30,7 +30,7 @@ date: 2022-07-05 22:58:12
 
 - 用户手动创建，详见
 
-  {% btn 'https://minge.live/2022/「博客」利用Git分支上传网站源码/',[「博客」利用Git分支上传网站源码 | Minge],far fa-hand-point-right,block outline right blue larger %}
+  {% btn 'https://minge.live/2022/「博客」利用Git分支上传网站源码/#上传源码',[「博客」利用Git分支上传网站源码 | Minge],far fa-hand-point-right,block outline right blue larger %}
 
 ## <center>.github
 
@@ -143,3 +143,4 @@ date: 2022-07-05 22:58:12
 
   {% btn 'https://minge.live/2022/「博客」详解Butterfly主题配置文件-config-butterfly-yml/',[「博客」详解Butterfly主题配置文件-config-butterfly-yml | Minge],far fa-hand-point-right,block outline right blue larger %}
 
+---
