@@ -67,35 +67,6 @@ cover: https://s2.loli.net/2022/07/06/3pzqfb2NIOACJX6.jpg
 
 # <center>解决冲突
 
-## <center>Pull冲突
+- 在远程源码和本地源码都有更改时进行部分操作会出现冲突
 
-- 在远程源码和本地源码都有更改时，在本地仓库***「pull」***会产生冲突
-
-  <img src="https://s2.loli.net/2022/07/06/AGW9YeR3XwTQLrt.png" alt="image-20220706131025643"  />
-
-- 原文翻译
-
-  ~~~
-  错误：您对以下文件的本地更改将被合并覆盖：
-  <文章名>
-  请在合并之前提交更改或将其隐藏。
-  ~~~
-
-  - [ ] 方法一：在合并前提交本地更改
-
-    ~~~bash
-    git add . && git commit -m "提交更改" && git pull
-    ~~~
-
-  - [ ] 方法二：在合并前隐藏本地更改
-
-    ~~~bash
-    git satsh
-    ~~~
-     
-  - `:wq`退出编辑
-
-    123
-
----
 
