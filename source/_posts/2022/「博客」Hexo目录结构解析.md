@@ -30,7 +30,7 @@ date: 2022-07-05 22:58:12
 
 - 用户手动创建，详见
 
-  {% btn 'https://minge.live/2022/「博客」利用Git分支上传网站源码/#上传源码',[「博客」利用Git分支上传网站源码 | Minge],far fa-hand-point-right,block outline right blue larger %}
+  {% btn 'https://minge.live/2022/「博客」利用Git分支上传-在线管理网站源码',[「博客」利用Git分支上传网站源码 | Minge],far fa-hand-point-right,block outline right blue larger %}
 
 ## <center>.github
 

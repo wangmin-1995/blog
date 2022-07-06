@@ -42,6 +42,22 @@ cover: https://s2.loli.net/2022/07/06/3pzqfb2NIOACJX6.jpg
 
 # <center>在线编辑
 
+1. 在「_config.yml」中打开，详见
 
+   {% btn 'https://minge.live/2022/「博客」详解Butterfly主题配置文件-config-butterfly-yml/#「在线编辑」',[「博客」详解 Butterfly 主题配置文件_config.butterfly.yml | Minge],far fa-hand-point-right,block outline right blue larger %}
+
+   注意目录要精确到***「source」***
+
+2. 在网页中点击文章名旁边的编辑按钮，会跳到***「GitHub」***源文件，编辑后***「commit」***云端保存
+
+   <img src="https://s2.loli.net/2022/07/06/uiewjN4Rq6H2TyM.png" style="zoom:67%;" />
+
+3. 当前情况是本地源码没有更改，而远程源码更改，要做的是将远程的更改同步到本地
+
+   ~~~bash
+   git pull
+   ~~~
+
+   
 
 ---

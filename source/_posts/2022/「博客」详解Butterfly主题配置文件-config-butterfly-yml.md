@@ -940,8 +940,24 @@ cover: https://s2.loli.net/2022/07/05/bHC3tahnQYuGXBT.png
 
 - 自定义配置如下
 
-  更新时间：***「2022/07/03」***
+  {% timeline 2022 %}
 
+  <!-- timeline 2022年07月03日 -->
+  
+  - 第一次配置
+  
+  <!-- endtimeline -->
+  
+  <!-- timeline 2022年07月06日 -->
+  
+  - 启用在线编辑
+  
+  <!-- endtimeline -->
+  
+  {% endtimeline %}
+  
+  
+  
   ~~~Yaml
   # 导航目录
   menu:
@@ -1014,7 +1030,7 @@ cover: https://s2.loli.net/2022/07/05/bHC3tahnQYuGXBT.png
   
   # 头像
   avatar:
-    img: https://s2.loli.net/2022/06/26/GB9iaNPwlk4U1ho.jpg
+    img: /img/favicon.png
     effect: false	# true：头像会一直转
   
   # Disable all banner image
@@ -1024,7 +1040,7 @@ cover: https://s2.loli.net/2022/07/05/bHC3tahnQYuGXBT.png
   index_img:
   
   # 默认的top_img，当页面的top_img没有配置时，会显示default_top_img
-  default_top_img: https://s2.loli.net/2022/05/06/MF6cDtkeNGTZbE1.jpg
+  default_top_img: /img/top_img.jpg
   
   # The banner image of archive page
   archive_img:
@@ -1053,7 +1069,7 @@ cover: https://s2.loli.net/2022/07/05/bHC3tahnQYuGXBT.png
     archives_enable: true
     position: both  # 封面显示的位置：left/right/both
     default_cover:	# 没有设置Front_matter时，默认显示的封面，可设置多个
-      - https://s2.loli.net/2022/05/06/MF6cDtkeNGTZbE1.jpg
+      - https://s2.loli.net/2022/07/05/ZuVvlWAMGqPHpgE.jpg
   
   # Replace Broken Images (替換無法顯示的圖片)
   error_img:
@@ -1126,10 +1142,10 @@ cover: https://s2.loli.net/2022/07/05/bHC3tahnQYuGXBT.png
   
   # 在线编辑
   post_edit:
-    enable: false
+    enable: true
     # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
     # 需要将本地仓库上传到Github仓库
-    url:
+    url: https://github.com/wangmin-1995/wangmin-1995.github.io/edit/hexo/source/
   
   # 相似文章
   related_post:
