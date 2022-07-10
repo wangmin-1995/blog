@@ -1,10 +1,12 @@
 ---
 title: 「博客」利用Git分支上传+在线管理网站源码
-tags: 
-- Git
-- Hexo
+tags:
+  - Git
+  - Hexo
 cover: https://s2.loli.net/2022/07/06/3pzqfb2NIOACJX6.jpg
+date: 2022-07-10 11:15:55
 ---
+
 
 
 
@@ -73,7 +75,7 @@ cover: https://s2.loli.net/2022/07/06/3pzqfb2NIOACJX6.jpg
   fatal: unable to access 'https://github.com/wangmin-1995/wangmin-1995.github.io.git/': OpenSSL SSL_read: Connection was aborted, errno 10053
   ~~~
 
-  
+  暂时没有好的方法，切换节点或关闭代理
 
   
 
