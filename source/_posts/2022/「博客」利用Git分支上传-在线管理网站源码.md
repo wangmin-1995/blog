@@ -67,6 +67,8 @@ date: 2022-07-10 11:15:55
    git pull
    ~~~
 
+---
+
 # <center>疑难杂症
 
 - 网络原因导致的失败
@@ -77,5 +79,9 @@ date: 2022-07-10 11:15:55
 
   见
 
-  
+  {% btn 'https://minge.live/2022/「软件」解决Git慢速问题-Clash全局代理/#Clash全局代理',[「软件」解决 Git 慢速问题 + Clash 全局代理 | Minge],far fa-hand-point-right,block outline right blue larger %}
+
+---
+
+
 
