@@ -67,6 +67,10 @@ date: 2022-07-10 11:15:55
    git pull
    ~~~
 
+4. 更多***「Git」***操作
+
+   {% btn 'https://minge.live/2022/「软件」Git的使用',[「软件」Git的使用 | Minge],far fa-hand-point-right,block outline right blue larger %}
+
 ---
 
 # <center>疑难杂症
@@ -82,6 +86,4 @@ date: 2022-07-10 11:15:55
   {% btn 'https://minge.live/2022/「软件」解决Git慢速问题-Clash全局代理/#Clash全局代理',[「软件」解决 Git 慢速问题 + Clash 全局代理 | Minge],far fa-hand-point-right,block outline right blue larger %}
 
 ---
-
-
 
