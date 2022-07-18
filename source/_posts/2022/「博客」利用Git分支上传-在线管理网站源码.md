@@ -38,12 +38,6 @@ date: 2022-07-10 11:15:55
    git add . && git commit -m 'first push' && git push
    ~~~
 
-   若在***「commit」***成功，但***「push」***出错，此时不允许再次***「commit」***，以下指令可以撤销上次***「commit」***
-
-   ~~~bash
-   git reset --soft head~1
-   ~~~
-
    在***「GItHub」***切换***「Hexo」***分支，可见所有网站源码已上传至仓库
 
 7. 每次在本地编辑文章后，要上传到远程仓库
@@ -91,6 +85,29 @@ date: 2022-07-10 11:15:55
   见
 
   {% btn 'https://minge.live/2022/「软件」解决Git慢速问题-Clash全局代理/#Clash全局代理',[「软件」解决 Git 慢速问题 + Clash 全局代理 | Minge],far fa-hand-point-right,block outline right blue larger %}
+
+- 若***「commit」***成功，但***「push」***出错，此时不允许再次***「commit」***，以下指令可以撤销上次***「commit」***
+
+  ~~~bash
+  git reset --soft head~1
+  ~~~
+
+- ***「push」***出错
+
+  ~~~
+  hint: Updates were rejected because the tip of your current branch is behind
+  hint: its remote counterpart. Integrate the remote changes (e.g.
+  hint: 'git pull ...') before pushing again.
+  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  ~~~
+
+  解决
+
+  ~~~bash
+  git pull --rebase origin master
+  ~~~
+
+  ***「master」***要替换为当前分支名
 
 ---
 
