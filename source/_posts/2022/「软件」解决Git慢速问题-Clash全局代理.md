@@ -1,11 +1,13 @@
 ---
 title: 「软件」解决Git慢速问题+Clash全局代理
 tags:
-- git
-- clash
+  - git
+  - clash
 categories: 软件
 cover: https://s2.loli.net/2022/07/15/FUvt2IzPRG9NprQ.jpg
+date: 2022-07-18 13:10:06
 ---
+
 
 
 
@@ -45,12 +47,12 @@ cover: https://s2.loli.net/2022/07/15/FUvt2IzPRG9NprQ.jpg
 
     若无此文件，可新建无后缀文件名***「config」***
 
-    
+---
 
-    
+# <center>Clash全局代理
 
-    
+- ***「Clash」***虚拟网卡***「TUN模式」***，更简单，高效，可以实现本机全局翻墙
 
-    
+  <img src="https://s2.loli.net/2022/07/18/DodmWgziZHR8vQ5.png" alt="屏幕截图 2022-07-18 130501" style="zoom:67%;" />
 
 ---

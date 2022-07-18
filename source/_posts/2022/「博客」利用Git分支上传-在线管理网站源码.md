@@ -75,7 +75,7 @@ date: 2022-07-10 11:15:55
   fatal: unable to access 'https://github.com/wangmin-1995/wangmin-1995.github.io.git/': OpenSSL SSL_read: Connection was aborted, errno 10053
   ~~~
 
-  暂时没有好的方法，切换节点或关闭代理
+  见
 
   
 
