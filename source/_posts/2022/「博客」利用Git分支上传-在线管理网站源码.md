@@ -67,6 +67,20 @@ date: 2022-07-10 11:15:55
    git pull
    ~~~
 
+4. 常规操作
+
+   目的一：拉取远程
+
+   目的二：备份源码
+
+   目的三：更新网站
+
+   ~~~bash
+   git pull && git add . && git commit -m "new" && git push && hexo clean&&hexo g&&hexo d
+   ~~~
+
+   
+
 ---
 
 # <center>疑难杂症
