@@ -38,11 +38,18 @@ date: 2022-07-10 11:15:55
    git add . && git commit -m 'first push' && git push
    ~~~
 
+   若在***「commit」***成功，但***「push」***出错，此时不允许再次***「commit」***，以下指令可以撤销上次***「commit」***
+
+   ~~~bash
+   git reset --soft head~1
+   ~~~
+
    在***「GItHub」***切换***「Hexo」***分支，可见所有网站源码已上传至仓库
 
 7. 每次在本地编辑文章后，要上传到远程仓库
    目的一：备份源码
    目的二：更新网站
+   
    ~~~bash
    git add . && git commit -m 'new' && git push && hexo clean && hexo g && hexo d
    ~~~
