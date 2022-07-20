@@ -1,8 +1,8 @@
 ---
 title: 「软件」解决Git慢速问题+Clash全局代理
 tags:
-  - git
-  - clash
+  - Git
+  - Clash
 categories: 软件
 cover: https://s2.loli.net/2022/07/15/FUvt2IzPRG9NprQ.jpg
 date: 2022-07-18 13:10:06
