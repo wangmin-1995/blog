@@ -4,7 +4,7 @@ tags:
   - Git
   - Clash
 categories: 软件
-cover: https://s2.loli.net/2022/07/15/FUvt2IzPRG9NprQ.jpg
+cover: https://s2.loli.net/2022/07/20/JOtFRg2hsEAckPM.jpg
 date: 2022-07-18 13:10:06
 ---
 
