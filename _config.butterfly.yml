@@ -627,6 +627,7 @@ aside:
     post_count: true
     last_push_date: true
     sort_order: # 轻易不修改
+  # card_map: true
 
 # 访问人数
 busuanzi:
