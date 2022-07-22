@@ -53,7 +53,7 @@ local_search:
 
 # MathJax
 mathjax:
-  enable: false
+  enable: true
   per_page: false
 
 # KaTeX
@@ -174,10 +174,10 @@ reward:
   QR_code:
     - img: /img/wechat.jpg
       link:
-      text: wechat
+      text: 微信
     - img: /img/alipay.jpg
       link:
-      text: alipay
+      text: 支付宝
 
 # 在线编辑
 post_edit:

@@ -954,6 +954,13 @@ cover: https://s2.loli.net/2022/07/05/bHC3tahnQYuGXBT.png
   
   <!-- endtimeline -->
   
+  <!-- timeline 2022年07月22日 -->
+  
+  - 启用数学公式
+  - 启用捐助
+  
+  <!-- endtimeline -->
+  
   {% endtimeline %}
   
   
@@ -1014,7 +1021,7 @@ cover: https://s2.loli.net/2022/07/05/bHC3tahnQYuGXBT.png
   
   # MathJax
   mathjax:
-    enable: false
+    enable: true
     per_page: false
   
   # KaTeX
@@ -1135,10 +1142,10 @@ cover: https://s2.loli.net/2022/07/05/bHC3tahnQYuGXBT.png
     QR_code:
       - img: /img/wechat.jpg
         link:
-        text: wechat
+        text: 微信
       - img: /img/alipay.jpg
         link:
-        text: alipay
+        text: 支付宝
   
   # 在线编辑
   post_edit:
